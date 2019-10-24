@@ -6,9 +6,9 @@ import * as vscode from 'vscode';
 // import * as myExtension from '../extension';
 
 suite('Extension Test Suite', () => {
-	vscode.window.showInformationMessage('Start all tests.');
+	vscode.window.showInformationMessage('The tests are beginning....');
 
-	test('Sample test', () => {
+	test('1st run sample test', () => {
 		assert.equal([1, 2, 3].indexOf(5), -1);
 		assert.equal([1, 2, 3].indexOf(0), -1);
 	});
